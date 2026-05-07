@@ -1,8 +1,23 @@
 *{
     padding: 0;
     margin: 0;
+    list-style: none;
 }
 
 #content{
-
+    border: 1px solid red;
+    max-width: 500px;
+    margin: auto;
+    padding: 5px;
 }
+
+.cont{
+    border: 1px solid purple;
+    margin: 5px;
+}
+
+.soncont{
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
