@@ -2,13 +2,25 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+  background-image: url('dibujo.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 #content{
-    border: 1px solid red;
-    max-width: 500px;
+    border: 3px solid black;
+    max-width: 700px;
     margin: auto;
     padding: 5px;
+    text-align: center;
+    color: white;
+    background-color: rgba(56, 56, 56, 0.9);
 }
 
 .cont{
@@ -16,8 +28,33 @@
     margin: 5px;
 }
 
-.soncont{
-    border: 2px solid red;
-    border-radius: 5px;
+.ul-nav{
+    border: 1px solid green;
+    margin: 5px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
 }
 
+.cont-main{
+    border: 1px solid blue;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    justify-content: space-around; 
+    gap: 16px;
+}
+
+.soncont{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 200px;
+}
+
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
