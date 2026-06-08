@@ -6,7 +6,7 @@
 }
 
 body{
-  background-image: url('dibujo.svg');
+  background-image: url('../img/dibujo.svg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
